@@ -15,5 +15,11 @@ namespace TutorialApp.Controllers
         }
 
             // Public would automatically make it a ACTION
-    }
+
+        public ActionResult MyFirstViewMethod()
+        {
+            return View("MyFirstView");
+        }
+
+   }
 }
